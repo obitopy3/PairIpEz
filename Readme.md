@@ -9,6 +9,7 @@
 ```shell
 git clone https://www.github.com/obitopy3/PairIpEz
 cd PairIpEz
+chmod +x setup.sh
 ./setup.sh
 cd ..
 rm -rf PairIpEz
