@@ -1,3 +1,3 @@
 chmod +x pairipez
-mv pairipez ../usr/bin/pairipez
+mv pairipez ../../usr/bin/pairipez
 echo "pairipez setup ✓"
