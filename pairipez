@@ -1,0 +1,22 @@
+#!/data/data/com.termux/files/usr/bin/python3.12
+import os,sys
+def main():
+    try:
+       path = sys.argv[1]
+       app = sys.argv[2]
+       if sys.argv[1].endswith(".apks"):
+           os.system("mkdir .tempez")
+           os.system("cd .tempez")
+           os.system(f"unzip {path}")
+           os.system(f"mv base.apk {app}")
+           print("done bypass if your device not rooted you will get PERMSSION ERROR")
+           os.system("cd ..\nrm -rf .tempez")
+           print("script is very easy\nthe script will not work if you don't have rooted device or dont follow every thing correct")
+       else:
+            print("the file is not .apks")
+    except Exception :
+       print("usage :\npairipez path to .apks path to Your Apk data/app/yourApkPath\nexample : pairipez path/base.apks data/app/com.test.app")
+main()
+#this script is made based on not my idea
+# Made by t.me/Assemblyexe
+
